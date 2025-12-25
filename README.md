@@ -6,6 +6,9 @@
 
 This project implements a **Progressive Growing GAN (ProGAN)** inspired architecture to generate realistic 128x128 human faces. Trained on the **CelebA dataset**, it utilizes advanced training techniques for stability and visual fidelity.
 
+<img width="694" height="766" alt="image" src="https://github.com/user-attachments/assets/1287062e-04d6-4ed0-bf8a-a60f5ad270bc" />
+
+
 ## 🚀 Key Features
 
 * **Progressive Architecture:** Generates faces starting from low-res to high-res (128x128).
