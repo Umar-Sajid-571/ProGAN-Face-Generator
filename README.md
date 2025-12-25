@@ -76,6 +76,6 @@ The model was trained for **50+ epochs** on 200k+ images.
 * [ ] Add Latent Space Interpolation (walking through faces).
 * [ ] Integrate Style-based mapping (StyleGAN features).
 
-**Developer:** [Your Name/Handle]
+**Developer:** Umar_Farooq
 
 **App Link:** [Live Demo](https://progan-face-generator.streamlit.app/)
