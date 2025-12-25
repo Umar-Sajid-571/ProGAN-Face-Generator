@@ -47,7 +47,7 @@ def build_generator_final(noise_dim=128):
     ])
     return model
 
-# --- 3. Professional UI ---
+# --- 3. UI ---
 st.set_page_config(page_title="AI Face Gen 2025", page_icon="👤", layout="centered")
 st.markdown("""
     <style>
@@ -64,7 +64,6 @@ st.markdown("""
 # --- 4. Loading via Pickle (Optimized for Cloud) ---
 @st.cache_resource
 def load_gan():
-    # Streamlit Cloud ke liye sirf file ka naam use karein
     pickle_path = 'generator_weights.pkl'
     
     if not os.path.exists(pickle_path):
@@ -84,7 +83,7 @@ def load_gan():
 
 # --- 5. App UI ---
 st.title("🎭 ProGAN Face Generator")
-st.write("2025 AI Labs - Generating 128x128 faces from 128-dim random noise.")
+st.write("2025 AI Labs - Generate 128x128 faces of non-existent people.")
 
 generator = load_gan()
 
@@ -117,4 +116,4 @@ if generator:
             st.markdown('</div>', unsafe_allow_html=True)
 
 st.divider()
-st.caption("Final Revision: Dec 2025 | Developed by Umar Farooq")
+st.caption("Dec 2025 | Developed by Umar Farooq")
